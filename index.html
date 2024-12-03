@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anniversary</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Background Canvas untuk Bintang -->
+  <canvas id="starsCanvas"></canvas>
+
+  <!-- Halaman 1 -->
   <div id="page1" class="page">
-    <h1>Happy Anniversary Sayangku<br>Adelia Azra Putri</h1>
+    <h1>Happy Anniversary Sayangku Adelia Azra Putri</h1>
     <button id="nextBtn">Selanjutnya</button>
   </div>
+
+  <!-- Halaman 2 -->
   <div id="page2" class="page hidden">
     <h1>I Love You</h1>
-    <div class="romantic-box">
-      <p id="romanticText"></p>
-    </div>
+    <div class="romantic-box" id="romanticText"></div>
+    <audio id="bgMusic" src="jangan_berhenti_mencintaiku.mp3" loop></audio>
   </div>
-  <canvas id="starsCanvas"></canvas>
-  <audio id="bgMusic" loop>
-    <source src="jangan_berhenti_mencintaiku.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+
   <script src="script.js"></script>
 </body>
 </html>
