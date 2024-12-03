@@ -17,6 +17,7 @@ body {
 .page {
   text-align: center;
   z-index: 10;
+  position: relative;
 }
 
 button {
