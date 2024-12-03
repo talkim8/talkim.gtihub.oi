@@ -9,10 +9,11 @@ const romanticWords = [
   "Ketika pertama kali aku bertemu denganmu, aku tahu hatiku telah menemukan rumahnya.",
   "Setiap detik bersamamu adalah anugerah yang tak ternilai, dan aku ingin terus menghitung waktu bersamamu selamanya.",
   "Maafkan aku jika aku sering membuatmu kesal atau marah, tapi percayalah, semua itu terjadi karena aku peduli padamu lebih dari apapun.",
-  "Aku ingin kita selalu saling mendukung, menjaga, dan mencintai, karena cinta kita adalah hadiah terindah dari Tuhan.",
+  "Aku ingin kita selalu saling mendukung, menjaga, dan mencintai, karena cinta kita adalah hadiah terindah dari Allah..",
   "Jangan pernah ragu bahwa kamu adalah alasan senyumanku setiap hari, dan aku akan berjuang untuk membuatmu bahagia.",
   "Aku sangat mencintaimu, dan aku berjanji akan menjadi pasangan yang lebih baik, seseorang yang selalu ada untukmu tanpa ragu.",
   "Aku ingin hubungan ini terus tumbuh, semakin kuat, dan membawa kita ke masa depan yang penuh kebahagiaan.",
+  "sayang aku harap kamu gak ngulangin ya kesalahan kmu yang dulu, dan terlalu bandel ya sayang......",
   "Kamu adalah bintang paling terang di langit hidupku, dan aku akan terus mencintaimu seperti langit mencintai bintang-bintang."
 ];
 
@@ -43,7 +44,6 @@ function typeText() {
       }
     }, 100);
   } else {
-    // Setelah pengetikan selesai, tampilkan seluruh kata-kata sekaligus
     romanticText.innerHTML = romanticWords.join('<br><br>');
   }
 }
