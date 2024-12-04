@@ -14,7 +14,7 @@ const romanticWords = [
   "Aku sangat mencintaimu, dan aku berjanji akan menjadi pasangan yang lebih baik, seseorang yang selalu ada untukmu tanpa ragu.",
   "Aku ingin hubungan ini terus tumbuh, semakin kuat, dan membawa kita ke masa depan yang penuh kebahagiaan.",
   "sayang aku harap kamu gak ngulangin ya kesalahan kmu yang dulu, dan terlalu bandel ya sayang......",
-  "Kamu adalah bintang paling terang di langit hidupku, dan aku akan terus mencintaimu seperti langit mencintai bintang-bintang."
+  "Kamu adalah bintang paling terang di langit hidupku, dan aku akan terus mencintaimu seperti langit mencintai bintang-bintang...🥰❤️"
 ];
 
 let index = 0;
